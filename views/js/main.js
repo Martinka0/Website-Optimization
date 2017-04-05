@@ -477,30 +477,25 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
   console.log("Average scripting time to generate last 10 frames: " + sum / 10 + "ms");
 }
 
-  var items;
+ // var items;
 // Moves the sliding background pizzas based on scroll position
-  window.performance.mark("mark_start_frame");
-  function updatePositions() {
+window.performance.mark("mark_start_frame");
+function updatePositions() {
   frame++;
-
-
-  var items = document.querySelectorAll('.mover');
-
-  var l = items.length; // Moved the length property outside the loop and makes the loop run faster.
-
-
-  var p = document.body.scrollTop / 1250;// Moved outside of the for loop to improve performance.
-
-  var phase; // Moved outside of the for loop to improve performance.
-  for (var i = 0; i < l; i++) {
-
-    phase = Math.sin(p + (i % 5));
-
-    s = 100 * phase;
-
-    // https://discussions.udacity.com/t/help-scroll-cause-force-jank/228782/9
-    items[i].style.left = items[i].basicLeft + s + 'px';
-  }
+  var items = document.getElementsByClassName('mover'); // getElementByClass is more efficient to access DOM
+  var s = document.body.scrollTop; // Moved outside of the for loop to improve performance.
+  var pizzasArray = []; // Created 5 value array to precalculate them in a for loop before the main loop.
+  for (i = 0; i < 5; i++) {
+    pizzasArray.push(Math.sin((s / 1250) + i)); //This loop precalcuates the 5 constant array values before the main loop.
+    }
+  var l = items.length; // Moving the length property outside the loop makes the loop run faster.
+  for (i = 0; i < l; i++) { // Now this loops won't have to re-calculate the same 5 values over and over.
+    var phase = pizzasArray[i % 5];
+    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+}
+//transform: translateZ(0); ... didn't use any of these hacks because of potential problems for mobile rendering
+//transform translate3d(0,0,0);
+//backface-visibility: hidden;
 
 //  User Timing API to the rescue again. Seriously, it's worth learning.
 //  Super easy to create custom metrics.
