@@ -2,6 +2,7 @@
 // https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp
 
 function logCRP() {
+
   var t = window.performance.timing,
     dcl = t.domContentLoadedEventStart - t.domLoading,
     complete = t.domComplete - t.domLoading;
