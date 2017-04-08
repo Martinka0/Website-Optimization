@@ -448,6 +448,7 @@ var resizePizzas = function(size) {
   var timeToResize = window.performance.getEntriesByName("measure_pizza_resize");
   console.log("Time to resize pizzas: " + timeToResize[timeToResize.length-1].duration + "ms");
 };
+// this code comes from Cameron Pittman Udacity course on web optimization.
 
 window.performance.mark("mark_start_generating"); // collect timing data
 
@@ -477,7 +478,6 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
   console.log("Average scripting time to generate last 10 frames: " + sum / 10 + "ms");
 }
 
- // var items;
 // Moves the sliding background pizzas based on scroll position
 window.performance.mark("mark_start_frame");
 function updatePositions() {
@@ -512,12 +512,12 @@ window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
-  var cols = 8;
+  var cols = 8;// Moved outside of the for loop to improve performance.
   var s = 256;
   var height = window.screen.height;
   var rows = height/s;
   var count = rows * cols;
-  var elem;
+  var elem; // Moved outside of the for loop to improve performance.
   var movingPizzas = document.getElementById('movingPizzas1');
   for (var i = 0; i < count; i++) {
     elem = document.createElement('img');
@@ -529,7 +529,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     movingPizzas.appendChild(elem);
   }
-  items = document.getElementsByClassName('mover');
+  items = document.getElementsByClassName('mover'); // getElementByClass is more efficient to access DOM
   updatePositions();
 });
 
