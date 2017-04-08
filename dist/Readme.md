@@ -9,4 +9,4 @@
 * Added a meta tag for Cache-control.
 * Changed logic in the main.js to stop force synchronous layout and improve performance.
   (Please see comments in the main.js file)
-* Used Gulp for automatization (compression and minifications of some files) 
+* Used Gulp for automation. (compression and minifications of some files) 
