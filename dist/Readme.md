@@ -1,5 +1,5 @@
  **Website optimization:**
-* Made a "dist" file with production ready files.
+* Made a "dist" file with production-ready files.
 * In-lined style.css into index.html.
 * In-lined web font into index.html.
 * Compressed  and resized all images
