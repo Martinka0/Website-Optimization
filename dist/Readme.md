@@ -8,7 +8,7 @@ The challenge was to optimize this online portfolio for speed! In particular, op
 ```bash
 $ git clone https://github.com/Martinka0/Website-Optimization
  ```
-1.2 Unzip and in the dist directory, double click the index.html file to launch the website in your browser.
+1.2 Unzip the repo. In the dist directory, double click the index.html file to launch the website in your browser.
 
 #### Local server
 2.1 To inspect the site on your phone, you can run a local server
