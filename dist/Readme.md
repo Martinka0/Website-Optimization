@@ -37,7 +37,14 @@ $ git clone https://github.com/Martinka0/Website-Optimization
 * Added a meta tag for Cache-control.
 
 #### Part 2: Optimize Frames per Second in pizza.html
+Optimizations made to views/js/main.js make views/pizza.html render with a consistent frame-rate at 60fps when scrolling.
 * Changed logic in the main.js to stop force synchronous layout and improve performance.
+Time to resize pizzas is less than 5 ms using the pizza size slider on the views/pizza.html page. Resize time is shown in the browser developer tools.
+### function changePizzaSizes:
+* Added the actual width value to the switch cases.
+* Used specific query selector getElementById.
+* Removed the query selection from the for loop.
+* Used specific query selector here would be getElementsByClassName.
 
 #### Part 3: Used Gulp for automation.
 * Made a "dist" folder with production-ready files.
