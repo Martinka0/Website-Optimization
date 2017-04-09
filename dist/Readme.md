@@ -47,6 +47,7 @@ Sass
 * [Udacity' Web Tooling & Automation course by  Google](https://www.udacity.com/course/web-tooling-automation--ud892)
 * [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
 * [Writing Efficient JavaScript by by Nicholas C. Zakas](http://archive.oreilly.com/pub/a/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html)
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
 
 
 
