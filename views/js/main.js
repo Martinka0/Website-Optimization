@@ -405,14 +405,16 @@ var resizePizzas = function(size) {
   function changeSliderLabel(size) {
     switch(size) {
       case "1":
-        document.querySelector("#pizzaSize").innerHTML = "Small";
+        document.getElementById("pizzaSize").innerHTML = "Small"; // Used specific query selector getElementById.
         return;
       case "2":
-        document.querySelector("#pizzaSize").innerHTML = "Medium";
+        document.getElementById("pizzaSize").innerHTML = "Medium"; // Used specific query selector getElementById.
         return;
+
       case "3":
-        document.querySelector("#pizzaSize").innerHTML = "Large";
+        document.getElementById("pizzaSize").innerHTML = "Large"; // Used specific query selector getElementById.
         return;
+
       default:
 
     }
@@ -434,7 +436,7 @@ var resizePizzas = function(size) {
 
     }
 
-    var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
+    var randomPizzas = document.getElementsByClassName("randomPizzaContainer"); // Used specific query selector getElementsByClassName.
 
     for (var i = 0; i < randomPizzas.length; i++) {
       randomPizzas[i].style.width = newWidth + "%";
@@ -529,7 +531,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     movingPizzas.appendChild(elem);
   }
-  items = document.getElementsByClassName('mover'); // getElementByClass is more efficient to access DOM
+  items = document.getElementsByClassName('mover'); // getElementByClassName is more efficient to access DOM
   updatePositions();
 });
 
