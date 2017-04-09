@@ -32,11 +32,11 @@ $> git clone https://github.com/Martinka0/Website-Optimization
 
 * Compressed and resized all images.
 * Minified HTML, CSS and JaveScript files.
-* Inlined and moved style.css into the bottom of the main body.
-* Inlined web font into into the bottom of the main body.
+* Inlined and moved style.css at the bottom of the main body.
+* Inlined web font into at the bottom of the main body.
 * Added `media="print"` to "print.css" link. 
 * Added `async` for links to JaveScript files. 
-* Move the links to JaveScript files into the bottom of the main body.
+* Moved the links to JaveScript files at the bottom of the main body.
 * Added a meta tag for Cache-control.
 
 
