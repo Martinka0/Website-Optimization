@@ -41,7 +41,8 @@ $ git clone https://github.com/Martinka0/Website-Optimization
 
 #### Part 3: Used Gulp for automation.
 * Made a "dist" folder with production-ready files.
-* [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
+* Installed [Gulp](http://gulpjs.com/)
+* Gulp plugins: Uglify, [Sass](http://sass-lang.com/install), Autoprefixer, Imagemin, Pngquant, Eslint, Watch
 * Compressed  and resized all images.
 * Minified HTML, CSS and JaveScript files.
 
