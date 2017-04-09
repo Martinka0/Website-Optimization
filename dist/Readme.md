@@ -48,6 +48,5 @@ Sass
 * [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
 * [Writing Efficient JavaScript by by Nicholas C. Zakas](http://archive.oreilly.com/pub/a/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html)
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
-
-
+* [High Performance Browser Networking by ILYA GRIGORIK](https://hpbn.co/?utm_source=igvita&utm_medium=referral&utm_campaign=igvita-homepage)
 
