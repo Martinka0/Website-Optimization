@@ -2,12 +2,15 @@
 The challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques explained in the Udacity's [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 ## Installation:
+
+#### Simple download
 1.1 Clone or Download this repo:
 ```bash
 $ git clone https://github.com/Martinka0/Website-Optimization
  ```
 1.2 Simply click on index.html in the "dist" folder to open the website in your browser.
 
+#### Local server
 2.1 To inspect the site on your phone, you can run a local server
  ```bash
   $> cd /path/to/your-project-folder
