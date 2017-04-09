@@ -44,17 +44,21 @@ Changed the logic in the main.js to stop force synchronous layout and improve pe
    Time to resize pizzas is less than 5 ms using the pizza size slider on the views/pizza.html page. 
    Resize time is shown in the browser developer tools.
      * Added the actual width value to the `switch` cases.
-     ```javascript
+    
+    ```javascript
       switch(size) {
            case "1":
              newWidth = 25;
      ```
      * Used specific query selector `getElementById`.
+     
      ```javascript
      document.getElementById("pizzaSize").innerHTML = "Small";
-     ```
+      ```
+    
      * Removed the query selection from the `for` loop and used specific query selector `getElementsByClassName`.
-     ```javascript
+    
+    ```javascript
      var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
      ```
  #### 2.2 Function `updatePositions()`:
