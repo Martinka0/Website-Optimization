@@ -86,7 +86,7 @@ Resize time is shown in the browser developer tools.
    ```javascript
     var movingPizzas = document.getElementById('movingPizzas1');
    ```
-  * Moving the length property outside the loop makes the loop run faster. 
+  * Moved the length property outside the loop makes the loop run faster. 
     ```javascript
      var l = items.length;
     ```
