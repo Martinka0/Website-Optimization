@@ -37,15 +37,16 @@ $ git clone https://github.com/Martinka0/Website-Optimization
 * Changed logic in the main.js to stop force synchronous layout and improve performance.
 
 #### Part 3: Used Gulp for automation.
-* Made a "dist" file with production-ready files.
+* Made a "dist" folder with production-ready files.
 * Compressed  and resized all images.
 * Minified HTML, CSS and JaveScript files.
 Sass 
 
 ## Recources:
-[Chrome Office Hours: Performance with Paul Lewis and Paul Irish](https://www.youtube.com/watch?v=z0_jD8nO5Zw)
-[Udacity' Web Tooling & Automation course by  Google](https://www.udacity.com/course/web-tooling-automation--ud892)
-[Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
+* [Chrome Office Hours: Performance with Paul Lewis and Paul Irish](https://www.youtube.com/watch?v=z0_jD8nO5Zw)
+* [Udacity' Web Tooling & Automation course by  Google](https://www.udacity.com/course/web-tooling-automation--ud892)
+* [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
+* [Writing Efficient JavaScript by by Nicholas C. Zakas](http://archive.oreilly.com/pub/a/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html)
 
 
 
