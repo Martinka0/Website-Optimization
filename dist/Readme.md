@@ -4,14 +4,14 @@ The challenge was to optimize this online portfolio for speed! In particular, op
 
 ## Installation:
 
-#### Simple download
+#### Part 1: Simple download
 1.1 Clone or Download this repo:
 ```bash
 $> git clone https://github.com/Martinka0/Website-Optimization
 ```
 1.2 Unzip the repo. In the dist directory, double click the index.html file to launch the website in your browser.
 
-#### Local server
+#### Part 2: Local server 
 2.1 To inspect the site on your phone, you can run a local server
  ```bash
   $> cd /path/to/your-project-folder
@@ -82,14 +82,14 @@ Resize time is shown in the browser developer tools.
      ```javascript
      items = document.getElementsByClassName('mover');
      ```    
- * Moved query selection out of the for loop and dynamically calculating the number of         scrolling pizzas.
+ * Moved query selection out of the for loop and dynamically calculating the number of scrolling pizzas.
    ```javascript
     var movingPizzas = document.getElementById('movingPizzas1');
    ```
   * Moving the length property outside the loop makes the loop run faster. 
-   ```javascript
-    var l = items.length;
-   ```
+    ```javascript
+     var l = items.length;
+    ```
 #### Part 3: Used Gulp for automation.
 * Made a **dist** directory with production-ready files.
 * Installed [Gulp](http://gulpjs.com/).
