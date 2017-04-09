@@ -54,12 +54,12 @@ Resize time is shown in the browser developer tools.
   document.getElementById("pizzaSize").innerHTML = "Small";
   ```
   * Removed the query selection from the for loop and used specific query selector `getElementsByClassName`.
-  ```bash
+  ```javascript
   var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
   ```
 
 #### Part 3: Used Gulp for automation.
-* Made a "dist" folder with production-ready files.
+* Made a "dist" directory with production-ready files.
 * Installed [Gulp](http://gulpjs.com/)
 * Gulp plugins: Uglify, [Sass](http://sass-lang.com/install), Autoprefixer, Imagemin, Pngquant, Eslint, Watch
 * Compressed  and resized all images.
