@@ -41,15 +41,15 @@ $ git clone https://github.com/Martinka0/Website-Optimization
 
 #### Part 3: Used Gulp for automation.
 * Made a "dist" folder with production-ready files.
+* [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
 * Compressed  and resized all images.
 * Minified HTML, CSS and JaveScript files.
-Sass 
+
 
 ## Recources:
 * [Chrome Office Hours: Performance with Paul Lewis and Paul Irish](https://www.youtube.com/watch?v=z0_jD8nO5Zw)
 * [Udacity' Web Tooling & Automation course by  Google](https://www.udacity.com/course/web-tooling-automation--ud892)
-* [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/install)
 * [Writing Efficient JavaScript by by Nicholas C. Zakas](http://archive.oreilly.com/pub/a/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html)
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
-* [High Performance Browser Networking by ILYA GRIGORIK](https://hpbn.co/?utm_source=igvita&utm_medium=referral&utm_campaign=igvita-homepage)
+* [High Performance Browser Networking By Ilya Grigorik](https://hpbn.co/?utm_source=igvita&utm_medium=referral&utm_campaign=igvita-homepage)
 
