@@ -28,7 +28,7 @@ $> git clone https://github.com/Martinka0/Website-Optimization
 
 
 ## Website optimization:
-#### Part 1: Optimize PageSpeed Insights score for index.html
+#### Part 1: Optimized PageSpeed Insights score for index.html
 
 * Compressed and resized all images.
 * Minified HTML, CSS and JaveScript files.
@@ -41,7 +41,7 @@ $> git clone https://github.com/Martinka0/Website-Optimization
 
 
 
-#### Part 2: Optimize Frames per Second in pizza.html
+#### Part 2: Optimized Frames per Second in pizza.html
 Optimizations made to views/js/main.js make views/pizza.html render with a consistent frame-rate at 60fps when scrolling.
 Changed the logic in the main.js to stop force synchronous layout and improve performance.
 
