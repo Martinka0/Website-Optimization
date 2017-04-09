@@ -91,10 +91,10 @@ Resize time is shown in the browser developer tools.
      var l = items.length;
     ```
 #### Part 3: Used Gulp for automation.
-* Made a **dist** directory with production-ready files.
+* Created the **dist** directory for production-ready files.
 * Installed [Gulp](http://gulpjs.com/).
 * Installed Gulp plugins.
-* Created **Gulpfile.js** in the local directory.
+* Created the **Gulpfile.js** in the local directory.
 
 | Gulp Plugins |  |
 | ------ | ------ |
@@ -110,7 +110,7 @@ Resize time is shown in the browser developer tools.
 
 
 
-## Extra Recources:
+## Extra Resources:
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
 * [Chrome Office Hours: Performance with Paul Lewis and Paul Irish](https://www.youtube.com/watch?v=z0_jD8nO5Zw)
 * [Udacity' Web Tooling & Automation course by  Google](https://www.udacity.com/course/web-tooling-automation--ud892)
