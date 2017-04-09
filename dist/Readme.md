@@ -8,7 +8,7 @@ The challenge was to optimize this online portfolio for speed! In particular, op
 ```bash
 $ git clone https://github.com/Martinka0/Website-Optimization
  ```
-1.2 Unzip and open the "dist" folder. Double click the "Index.html" file to launch the website in your browser.
+1.2 Unzip and in the dist directory, double click the index.html file to launch the website in your browser.
 
 #### Local server
 2.1 To inspect the site on your phone, you can run a local server
@@ -23,7 +23,7 @@ $ git clone https://github.com/Martinka0/Website-Optimization
   $> ./ngrok http 8080
   ```
 
-2.3 Copy the public URL ngrok gives you and try running it through PageSpeed Insights! 
+2.3 Copy the public URL ngrok gives you and try running it through [PageSpeed Insights](https://developers.google.com/speed/pagespeed/)! 
 
 
 ## Website optimization:
