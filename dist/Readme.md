@@ -55,8 +55,7 @@ Changed the logic in the main.js to stop force synchronous layout and improve pe
      ```javascript
      document.getElementById("pizzaSize").innerHTML = "Small";
       ```
-    
-     * Removed the query selection from the `for` loop and used specific query selector `getElementsByClassName`.
+    * Removed the query selection from the `for` loop and used specific query selector `getElementsByClassName`.
     
     ```javascript
      var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
