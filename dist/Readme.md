@@ -1,5 +1,5 @@
 ## Website Performance Optimization portfolio project
-The challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques explained in the Udacity's [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+The challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques explained in the [Udacity's Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 ## Installation:
 
@@ -8,7 +8,7 @@ The challenge was to optimize this online portfolio for speed! In particular, op
 ```bash
 $ git clone https://github.com/Martinka0/Website-Optimization
  ```
-1.2 Simply click on index.html in the "dist" folder to open the website in your browser.
+1.2 Unzip and open the "dist" folder. Double click the "Index.html" file to launch the website in your browser.
 
 #### Local server
 2.1 To inspect the site on your phone, you can run a local server
@@ -23,7 +23,7 @@ $ git clone https://github.com/Martinka0/Website-Optimization
   $> ./ngrok http 8080
   ```
 
-2.3 Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
+2.3 Copy the public URL ngrok gives you and try running it through PageSpeed Insights! 
 
 
 ## Website optimization:
